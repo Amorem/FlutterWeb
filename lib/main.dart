@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 main() => runApp(
       MaterialApp(
-        title: 'Webby',
+        title: 'Amorem',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.deepPurple,
+          primarySwatch: Colors.lightBlue,
         ),
         home: WebbyHome(),
       ),
@@ -17,7 +17,7 @@ class WebbyHome extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(icon: Icon(Icons.menu), onPressed: () {}),
-        title: Text('Webby'),
+        title: Text('Amorem'),
         actions: <Widget>[
           IconButton(icon: Icon(Icons.account_circle), onPressed: () {}),
         ],
